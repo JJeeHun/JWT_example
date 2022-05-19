@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        fetch("/api/hello")
+        .then(result => {
+            console.log(result.json());
+        })
+    </script>
+</body>
+</html>
